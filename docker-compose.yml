@@ -38,11 +38,11 @@ services:
     volumes:
       - vproappdata:/usr/local/tomcat/webapps
 
-  voroweb:
+  vproweb:
     build:
       context: ./Docker-files/web
     image: fayezsalhab/vprofileweb
-    container_name: voroweb
+    container_name: vproweb
     ports:
       - "80:80"
 

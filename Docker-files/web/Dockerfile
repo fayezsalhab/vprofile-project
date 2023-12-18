@@ -3,5 +3,5 @@ LABEL "Project"="vprofile"
 LABEL "Author"="Fayez"
 
 
-RUN  rm -rf /etc/nginx/conf.d/default.conf
-ADD nginvproapp.conf /etc/nginx/conf.d/vproapp.conf
+RUN  rm -rf /etc/nginx/nginx.conf
+ADD nginvproapp.conf /etc/nginx/nginx.conf
